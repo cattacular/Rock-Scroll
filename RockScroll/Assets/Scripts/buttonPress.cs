@@ -11,14 +11,14 @@ public class buttonPress : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //SceneManager.LoadScene("Level1");
-    }
+    //// Start is called before the first frame update
+    //void Start()
+    //{
+    //    //SceneManager.LoadScene("Level1");
+    //}
 
-    private void CancelInvoke()
-    {
-        SceneManager.LoadScene("Start - Main Menu");
-    }
+    //private void CancelInvoke()
+    //{
+    //    SceneManager.LoadScene("Start - Main Menu");
+    //}
 }
