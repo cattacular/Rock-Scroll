@@ -382,6 +382,7 @@
 "Assets/Scripts/buttonPress.cs"
 "Assets/Scripts/buttonPress2.cs"
 "Assets/Scripts/CollideChecker.cs"
+"Assets/Scripts/Song1.cs"
 -langversion:9.0
 
 /deterministic
