@@ -19,6 +19,6 @@ public class Song1 : MonoBehaviour
 
     private void CancelInvoke()
     {
-        SceneManager.LoadScene("Song 1 - S Imone can edit version");
+        SceneManager.LoadScene("Song1Simone");
     }
 }
