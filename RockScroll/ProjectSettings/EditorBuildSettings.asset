@@ -15,12 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu 1.unity
     guid: 18d5a96c7918c44e9abe86a762a86fab
   - enabled: 1
-    path: Assets/Scenes/Start - Main Menu.unity
+    path: Assets/Scenes/Main Menu/Start - Main Menu.unity
     guid: 460d0bdf637ed4e9b8bc071cc415f2a6
   - enabled: 1
     path: Assets/Scenes/Song1Simone.unity
     guid: cf01fff16d3594dc18963b970112365b
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Main Menu/Main Menu.unity
     guid: c7392726b4ede404785807b5ddd10549
   m_configObjects: {}
