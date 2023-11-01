@@ -15,7 +15,7 @@ public class CollideChecker : MonoBehaviour
     AudioSource audioSource;
     private int clickCount = 0;
 
-
+    public KeyCode theKey = KeyCode.None;
 
     //Start is called before the first frame update
     void Start()
@@ -48,7 +48,7 @@ public class CollideChecker : MonoBehaviour
     {
 
         if (other.tag == "Activator"
-            && (Input.GetKeyDown(KeyCode.A)) && clickCount == 0)
+            && (Input.GetKeyDown(theKey)) && clickCount == 0)
         {
             //if (Input.GetKeyDown("A"))
         //    if (Input.GetKey(KeyCode.A))
