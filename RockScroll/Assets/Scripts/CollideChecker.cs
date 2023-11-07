@@ -14,16 +14,15 @@ public class CollideChecker : MonoBehaviour
 {
     AudioSource audioSource;
     private int clickCount = 0;
-
+    public KeyCode theKey = KeyCode.None;
 
 
     //Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-
-   
-        //audioSource.Play();
+        //audioSource.mute = true;
+ 
     }
 
 
@@ -32,6 +31,7 @@ public class CollideChecker : MonoBehaviour
     {
         if (other.tag == "Activator")
         {
+            //audioSource.mute = true;
             clickCount = 0;
         }
     }
@@ -40,6 +40,7 @@ public class CollideChecker : MonoBehaviour
     {
         if (other.tag == "Activator")
         {
+            //audioSource.mute = true;
             clickCount = 0;
         }
     }
@@ -48,24 +49,24 @@ public class CollideChecker : MonoBehaviour
     {
 
         if (other.tag == "Activator"
-            && (Input.GetKeyDown(KeyCode.A)) && clickCount == 0)
+            && (Input.GetKeyDown(theKey)) && clickCount == 0)
         {
             //if (Input.GetKeyDown("A"))
-        //    if (Input.GetKey(KeyCode.A))
-        //{ 
-                audioSource.Play();
+            //    if (Input.GetKey(KeyCode.A))
+            //{ 
+            //audioSource.mute = false;
             clickCount = clickCount + 1;
             //}
         }
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(Vector3.down * Time.deltaTime * 5);
+    //void Update()
+    //{
+    //    if (Input.GetKey(KeyCode.Space))
+    //    {
+    //        transform.Translate(Vector3.down * Time.deltaTime * 5);
 
-        }
-    }
+    //    }
+    //}
 }
