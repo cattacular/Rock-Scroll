@@ -18,8 +18,8 @@ public class Activator : MonoBehaviour
     //Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.mute = true;
+        //audioSource = GetComponent<AudioSource>();
+        //audioSource.mute = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -46,15 +46,15 @@ public class Activator : MonoBehaviour
         {
             Instantiate(createdNote, transform.position, Quaternion.identity);
         }
-        else
-        {
+        //else
+        //{
             if(Input.GetKeyDown(theKey)&& active)
             {
                 Destroy(note);
-                audioSource.mute = false;
+                //audioSource.mute = false;
 
             }
-        }
+        //}
        
     }
 }

@@ -1274,9 +1274,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: audioPLay
   platform: 20
   scenePathNames:
   - Assets/Scenes/Main Menu/Main Menu.unity
   - Assets/Scenes/Main Menu/Start - Main Menu.unity
   - Assets/Scenes/Song1Simone.unity
-  playerPath: /Users/pschmit3/Desktop/Unity/Rock & Scroll - Armageddon/Rock-Scroll/RockScroll/RockScrollPlaytest2-1
+  playerPath: /Users/shill24/Desktop/WEBGL build ROCKnSCROLL milestone 2

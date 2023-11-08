@@ -10,8 +10,10 @@ public class muter : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    { 
+    {
         audioSource = GetComponent<AudioSource>();
+        //audio.mute = false;
+        //audio.Play();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -19,7 +21,7 @@ public class muter : MonoBehaviour
 
         if (other.tag == "note")
         {
-            audioSource.mute = true;
+           audioSource.mute = true;
         }
     }
 
@@ -34,6 +36,6 @@ public class muter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 }
