@@ -6,15 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Song2.unity
-    guid: 294ce9c23fd70c9429e8752d6e470535
+    path: Assets/Scenes/Main Menu/Main Menu.unity
+    guid: c7392726b4ede404785807b5ddd10549
   - enabled: 1
     path: Assets/Scenes/Main Menu/Start - Main Menu.unity
     guid: 460d0bdf637ed4e9b8bc071cc415f2a6
   - enabled: 1
     path: Assets/Scenes/Song1Simone.unity
     guid: cf01fff16d3594dc18963b970112365b
-  - enabled: 1
-    path: Assets/Scenes/Main Menu/Main Menu.unity
-    guid: c7392726b4ede404785807b5ddd10549
   m_configObjects: {}
