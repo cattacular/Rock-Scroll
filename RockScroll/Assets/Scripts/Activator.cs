@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Activator : MonoBehaviour
 {
+    public bool createMode = false;
     AudioSource audioSource;
     private int clickCount = 0;
     public KeyCode theKey;
     bool active = false;
     GameObject note;
+    public GameObject createdNote;
 
     // this script allows for the deleting of notes when they collide with the
     // and the specific key is pressed. 
@@ -40,11 +42,18 @@ public class Activator : MonoBehaviour
 
     private void Update()
     {
-       if(Input.GetKeyDown(theKey)&& active)
+        if(createMode && Input.GetKeyDown(theKey))
         {
-            Destroy(note);
-            audioSource.mute = false;
+            Instantiate(createdNote, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            if(Input.GetKeyDown(theKey)&& active)
+            {
+                Destroy(note);
+                audioSource.mute = false;
 
+            }
         }
        
     }
