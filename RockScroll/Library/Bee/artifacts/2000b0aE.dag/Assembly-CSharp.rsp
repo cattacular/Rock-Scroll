@@ -363,6 +363,7 @@
 "Assets/Scripts/CollideChecker.cs"
 "Assets/Scripts/errorSoundPlayer.cs"
 "Assets/Scripts/muter.cs"
+"Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/Scroll.cs"
 "Assets/Scripts/Song1.cs"
 -langversion:9.0

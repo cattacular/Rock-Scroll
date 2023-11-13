@@ -28,6 +28,7 @@ public class Activator : MonoBehaviour
         {
             note = other.gameObject;
             active = true;
+           // ScoreManager.scoreCount += 10; //add 1 to score on successful note press. Works here but triggers twice?
         }
     }
 
@@ -37,6 +38,7 @@ public class Activator : MonoBehaviour
         {
             //GetComponent<Rigidbody2D>().position = Vector2.down * 10;
             active = false;
+            
         }
     }
 
@@ -50,6 +52,7 @@ public class Activator : MonoBehaviour
         {
             if(Input.GetKeyDown(theKey)&& active)
             {
+                ScoreManager.scoreCount += 10;
                 Destroy(note);
                 audioSource.mute = false;
 
