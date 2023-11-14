@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Song1Simone.unity
     guid: cf01fff16d3594dc18963b970112365b
+  - enabled: 1
+    path: Assets/Scenes/Song2.unity
+    guid: 294ce9c23fd70c9429e8752d6e470535
   m_configObjects: {}
