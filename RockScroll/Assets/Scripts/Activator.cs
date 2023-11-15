@@ -9,7 +9,7 @@ public class Activator : MonoBehaviour
 {
     public bool createMode = false;
     AudioSource audioSource;
-    private int clickCount = 0;
+   // private int clickCount = 0;
     public KeyCode theKey;
     bool active = false;
     GameObject note;
@@ -52,7 +52,8 @@ public class Activator : MonoBehaviour
         //{
             if(Input.GetKeyDown(theKey)&& active)
             {
-                Destroy(note);
+            ScoreManager.scoreCount += 10;
+            Destroy(note);
                 //audioSource.mute = false;
 
             }
