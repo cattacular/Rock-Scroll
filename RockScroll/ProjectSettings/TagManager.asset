@@ -6,6 +6,7 @@ TagManager:
   tags:
   - note
   - Activator
+  - mainMenu
   layers:
   - Default
   - TransparentFX

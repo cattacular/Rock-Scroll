@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class buttonPress2 : MonoBehaviour
+public class buttonPressb : MonoBehaviour
 {
     public GameObject ButtonPressed;
 
