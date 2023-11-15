@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Song2.unity
     guid: 294ce9c23fd70c9429e8752d6e470535
   - enabled: 1
+    path: Assets/Scenes/Main Menu/Controls - Main Menu.unity
+    guid: e02f4741ce1a145c4a99ffec5139dba0
+  - enabled: 1
+    path: Assets/Scenes/Main Menu/Esteem Rank - Main Menu.unity
+    guid: 00a3d5b8886f940e396148ae2b06b030
+  - enabled: 1
     path: Assets/Scenes/Song3.unity
     guid: 425cf4a4535df39468728734012085cc
   m_configObjects: {}
