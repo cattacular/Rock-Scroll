@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class muter : MonoBehaviour
 {
@@ -12,8 +13,6 @@ public class muter : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        //audio.mute = false;
-        //audio.Play();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -31,6 +30,9 @@ public class muter : MonoBehaviour
         {
             audioSource.mute = false;
         }
+        if (other.tag == "mainMenu") {
+            SceneManager.LoadScene("Main Menu");
+    }
     }
 
     // Update is called once per frame
